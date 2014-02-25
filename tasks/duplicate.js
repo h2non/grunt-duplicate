@@ -43,7 +43,9 @@ module.exports = function(grunt) {
     function setFileName(dest, filepath, id) {
       var ext = path.extname(filepath)
       if (dest) {
-        filepath = path.join(dest, path.basename(filepath, ext))
+        filepath = path.join(path.dirname(dest), path.basename(filepath, ext))
+      } else {
+        filepath = path.join(path.dirname(filepath), path.basename(filepath, ext))
       }
       return filepath + '-' + id + ext
     }
