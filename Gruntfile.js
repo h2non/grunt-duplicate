@@ -37,7 +37,7 @@ module.exports = function(grunt) {
         },
         files: [{
           src: ['test/fixtures/*'],
-          dest: '.tmp'
+          dest: '.tmp/'
         }]
       }
     },
