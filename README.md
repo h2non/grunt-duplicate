@@ -41,6 +41,12 @@ grunt.initConfig({
 })
 ```
 
+Example file
+```
+Generated file: <%= id %>
+Total copies: <%= total %>
+```
+
 ### Options
 
 #### template

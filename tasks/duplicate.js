@@ -25,7 +25,7 @@ module.exports = function(grunt) {
     })
 
     function processFile(filepath, id, file) {
-      var locals = { data: { id: id }}
+      var locals = { data: { id: id, total: options.copies }}
       var data = grunt.file.read(filepath)
       var dest = setFileName(file.dest, filepath, id)
       
@@ -41,10 +41,11 @@ module.exports = function(grunt) {
     }
 
     function setFileName(dest, filepath, id) {
+      var ext = path.extname(filepath)
       if (dest) {
-        filepath = path.join(dest, path.basename(filepath, path.extname(filepath)))
+        filepath = path.join(dest, path.basename(filepath, ext))
       }
-      return filepath + '-' + id + path.extname(filepath)
+      return filepath + '-' + id + ext
     }
 
   })
