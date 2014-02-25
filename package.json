@@ -1,0 +1,49 @@
+{
+  "name": "grunt-duplicate",
+  "description": "Duplicate files with templating support",
+  "version": "0.1.0",
+  "homepage": "https://github.com/h2non/grunt-duplicate",
+  "author": {
+    "name": "Tomas Aparicio",
+    "email": "tomas@aparicio.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/h2non/grunt-duplicate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/h2non/grunt-duplicate/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/h2non/grunt-duplicate/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "duplicate",
+    "copy",
+    "generate",
+    "random"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1"
+  }
+}
