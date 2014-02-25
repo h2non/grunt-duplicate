@@ -36,8 +36,8 @@ grunt.initConfig({
     },
     files: {
       'copies/': ['src/*.js', 'src/*.css'],
-    },
-  },
+    }
+  }
 })
 ```
 
