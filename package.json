@@ -1,7 +1,7 @@
 {
   "name": "grunt-duplicate",
   "description": "Duplicate files with templating support",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/h2non/grunt-duplicate",
   "author": {
     "name": "Tomas Aparicio",
