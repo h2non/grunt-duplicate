@@ -17,7 +17,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/h2non/grunt-duplicate/blob/master/LICENSE-MIT"
+      "url": "https://github.com/h2non/grunt-duplicate/blob/master/LICENSE"
     }
   ],
   "main": "Gruntfile.js",
@@ -26,6 +26,9 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.6.0",
@@ -42,8 +45,5 @@
     "copy",
     "generate",
     "random"
-  ],
-  "dependencies": {
-    "lodash": "~2.4.1"
-  }
+  ]
 }
